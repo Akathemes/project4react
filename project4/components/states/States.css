@@ -1,0 +1,13 @@
+.cs142-states-wrapper{
+    position:relative;
+    color: black;
+    height: 90%;
+    padding: 0;
+    width: 100%;
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/9/9f/Usa.svg);
+    background-size:cover;
+}
+.cs142-states-wrapper::before{
+    content:"";
+    background-color: rgba(0,0,0,0.25);
+}
